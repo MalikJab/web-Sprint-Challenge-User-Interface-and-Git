@@ -80,11 +80,14 @@ p {
 
 }
 
+
+
 #jumboImage {
 margin-top: 40px;
 margin-bottom: 20px;
 
 }
+
 
 .top-content {
     display: flex;
@@ -164,12 +167,16 @@ footer nav a {
 }
 
 .boxes {
+    width: 500px;
+    height: 500px;
+
     display: flex;
     flex-flow: row wrap;
-    align-content: space-between;
+    align-items: space-between;
+    
 }
 
-#box1 {
+.box1 {
     
     text-align: center;
     color: white;
@@ -179,68 +186,114 @@ footer nav a {
     background-color: teal;
 }
 
-#box2 {
+.box2 {
     width: 100px;
     height: 100px;
     border: 1px solid black;
 }
 
-#box3 {
+.box3 {
     width: 100px;
     height: 100px;
     border: 1px solid black;
 }
 
-#box4 {
+.box4 {
     width: 100px;
     height: 100px;
     border: 1px solid black;
 }
 
-#box5 {
+.box5 {
     width: 100px;
     height: 100px;
     border: 1px solid black;
 }
 
-#box6 {
+.box6 {
     width: 100px;
     height: 100px;
     border: 1px solid black;
 }
 
-#box7 {
+.box7 {
     width: 100px;
     height: 100px;
     border: 1px solid black;
 }
 
-#box8 {
+.box8 {
     width: 100px;
     height: 100px;
     border: 1px solid black;
 }
 
-#box9 {
+.box9 {
     width: 100px;
     height: 100px;
     border: 1px solid black;
 }
 
-#box10 {
+.box10 {
     width: 100px;
     height: 100px;
     border: 1px solid black;
 }
 
+/* ___________________________________________
+
+ABOUT.HTML SECTION
+___________________________________________ */
 
 
+#jumboAbout {
+    margin-top: 40px;
+    margin-bottom: 20px;
 
+}
 
+#lambdaHeaderAbout{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 20px;
 
+}
 
+#aboutPara1 {
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    
+}
 
+.learnmoreGroup {
+    width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    border: 1px dashed black;
+}
 
+#strategyGroup {
+    width: 350px;
+
+}
+
+#workGroup {
+    width: 350px;
+
+}
+
+#placesGroup {
+    width: 350px;
+
+}
+
+#collabGroup {
+    width: 350px;
+
+}
 
 
 
