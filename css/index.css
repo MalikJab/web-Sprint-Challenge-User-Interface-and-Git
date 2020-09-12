@@ -106,11 +106,12 @@ margin-bottom: 20px;
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    height: 320px;
 }
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .middle-content .boxes {
@@ -129,6 +130,9 @@ margin-bottom: 20px;
     align-items: center;
     justify-content: center;
 }
+
+
+
 
 .bottom-content {
     display: flex;
@@ -166,78 +170,68 @@ footer nav a {
     text-decoration: none;
 }
 
-.boxes {
-    width: 500px;
-    height: 500px;
 
-    display: flex;
-    flex-flow: row wrap;
-    align-items: space-between;
-    
-}
 
-.box1 {
-    
-    text-align: center;
+#box1 {
     color: white;
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
     background-color: teal;
+    padding: 35px;
 }
 
-.box2 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+#box2 {
+    color: white;
+    background-color: gold;
+    padding: 35px;
 }
 
-.box3 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+#box3 {
+    color: white;
+    
+    background-color: cadetblue;
+    padding: 35px;
 }
 
-.box4 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+#box4 {
+    color: white;
+    
+    background-color: coral;
+    padding: 35px;
 }
 
-.box5 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+#box5 {
+    color: white;
+    background-color:crimson;
+    padding: 35px;
 }
 
-.box6 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+#box6 {
+    color: white;
+    background-color:forestgreen;
+    padding: 35px;
 }
 
-.box7 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+#box7 {
+    color: white;
+    background-color:darkorchid;
+    padding: 35px;
 }
 
-.box8 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+#box8 {
+    color: white;
+    background-color:hotpink;
+    padding: 35px;
 }
 
-.box9 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+#box9 {
+    color: white;
+    background-color: indigo;
+    padding: 35px;
 }
 
-.box10 {
-    width: 100px;
-    height: 100px;
-    border: 1px solid black;
+#box10 {
+    color: white;
+    background-color: dodgerblue;
+    padding: 35px;
 }
 
 /* ___________________________________________
@@ -272,29 +266,49 @@ ___________________________________________ */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    border: 1px dashed black;
+    
 }
 
 #strategyGroup {
     width: 350px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
 
 }
 
 #workGroup {
     width: 350px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
 
 }
 
 #placesGroup {
     width: 350px;
-
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
 }
 
 #collabGroup {
     width: 350px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
+
 
 }
 
+.learnbutton {
+    height: 40px;
+    width: 140px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+}
 
 
 
