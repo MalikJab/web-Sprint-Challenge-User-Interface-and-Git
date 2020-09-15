@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+#lambdaHeader{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 20px;
+
+}
+
+
+
+#jumboImage {
+margin-top: 40px;
+margin-bottom: 20px;
+
+}
+
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -88,11 +106,12 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    height: 320px;
 }
 
 .middle-content h2 {
     padding: 0 2%;
-    margin-bottom: 0;
+    margin-bottom: 20px;
 }
 
 .middle-content .boxes {
@@ -112,6 +131,9 @@ p {
     justify-content: center;
 }
 
+
+
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,7 +148,10 @@ p {
     padding-right: 0;
 }
 
+
+
 footer {
+    margin: 0 auto;
     width: 100%;
     background: black;
 }
@@ -144,3 +169,158 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+
+#box1 {
+    color: white;
+    background-color: teal;
+    padding: 35px;
+}
+
+#box2 {
+    color: white;
+    background-color: gold;
+    padding: 35px;
+}
+
+#box3 {
+    color: white;
+    
+    background-color: cadetblue;
+    padding: 35px;
+}
+
+#box4 {
+    color: white;
+    
+    background-color: coral;
+    padding: 35px;
+}
+
+#box5 {
+    color: white;
+    background-color:crimson;
+    padding: 35px;
+}
+
+#box6 {
+    color: white;
+    background-color:forestgreen;
+    padding: 35px;
+}
+
+#box7 {
+    color: white;
+    background-color:darkorchid;
+    padding: 35px;
+}
+
+#box8 {
+    color: white;
+    background-color:hotpink;
+    padding: 35px;
+}
+
+#box9 {
+    color: white;
+    background-color: indigo;
+    padding: 35px;
+}
+
+#box10 {
+    color: white;
+    background-color: dodgerblue;
+    padding: 35px;
+}
+
+/* ___________________________________________
+
+ABOUT.HTML SECTION
+___________________________________________ */
+
+
+#jumboAbout {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
+#lambdaHeaderAbout{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-top: 20px;
+
+}
+
+#aboutPara1 {
+    border-bottom: 1px dashed black;
+    margin-bottom: 30px;
+    
+}
+
+.learnmoreGroup {
+    width: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    
+}
+
+#strategyGroup {
+    width: 350px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
+
+}
+
+#workGroup {
+    width: 350px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
+
+}
+
+#placesGroup {
+    width: 350px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
+}
+
+#collabGroup {
+    width: 350px;
+    border-bottom: 1px dashed black;
+    margin-bottom: 60px;
+
+
+}
+
+.learnbutton {
+    height: 40px;
+    width: 140px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
